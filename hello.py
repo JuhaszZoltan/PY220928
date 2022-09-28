@@ -20,6 +20,6 @@ for x in range(szam):
 
 print('\nRendben, végeztünk!')
 print(f'Köszönj el szépen {nev}:', end= ' ')
-while input() in {'Szia!', 'Viszont látásra!'}:
+while input() not in {'Szia!', 'Viszont látásra!'}:
     print('hát ez nem jött össze, próbáld újra:', end=' ')
 print(f'Szia {nev}, legyen szép napod!')
